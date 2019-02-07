@@ -83,18 +83,18 @@ const server = http.createServer((req, res) => {
 server.listen(config.port, () => console.log(`The server is listening on port ${config.port} in ${config.envName} mode.`));
 
 // Define our handlers
-const handlers = {}
+const handlers = {};
 
 // Sample handler
 handlers.sample = (data, callback) => {
     // Callback an HTTP statuscode, and a payload
     callback(406, { 'name': 'sample handler' });
-}
+};
 
 // Default handler
 handlers.notFound = (data, callback) => {
     callback(404);
-}
+};
 
 // Define a request router
 const router = {
