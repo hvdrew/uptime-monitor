@@ -1,0 +1,15 @@
+Things to do when done with the project:
+- Fix up formatting and code style (ternaries)
+- Update the entire project to use Promises/Async+Await
+- Organize code within main files into smaller files
+- Convert handlers to class if necessary
+- Split handlers into routing directory
+- Streamline the naming conventions for modules
+- Fix everything else that sucks with the lesson's code
+- Finish converting everything to ES6 (probably already done, but check anyway)
+
+
+FINALLY
+- Run through the entire application one last time, fix anything I don't like.
+- Test every route with every handler method thuroughly
+- Write documentation on what each method expects on each path
