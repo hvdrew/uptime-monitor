@@ -7,6 +7,7 @@ Things to do when done with the project:
 - Streamline the naming conventions for modules
 - Fix everything else that sucks with the lesson's code
 - Finish converting everything to ES6 (probably already done, but check anyway)
+- Convert file-based storage to a DB version instead (or consider not doing this, I guess)
 
 
 FINALLY
